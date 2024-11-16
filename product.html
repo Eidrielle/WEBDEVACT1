@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech2etc Ecommerce Tutorial</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <a href="a"><img src="C:\Users\Jessa\Downloads\Logo.png"></a>
+   
+        <div>
+           <ul id="navbar">
+               <li><a  href="index.html">Home</a></li>           
+               <li><a class="active" href="product.html">Product</a></li>          
+               <li><a href="Shop.html">Shop</a></li>                  
+               <li><a href="contact.html">Contact Us</a></li>            
+               <li><button id="cart-icon" onclick="showCart()"><i class="fa-solid fa-cart-shopping"></i><span id="cartcount"></span></button></li>
+
+
+           </ul>
+        </div>
+        <div id="mobile">
+           
+           <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+           <i id="bar" class=""><i class="fa-solid fa-bars"></i></i>
+        </div>
+   
+   
+       </section>
+
+    
+
+    
+    <section id="product1" class="section-p1">
+        <h2>Feature Product</h2>
+        <p>Hot and Ice Coffee </p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="C:\Users\Jessa\Downloads\milktea (2).png" alt="">
+                <div class="des">
+                    <span>Coffee</span>
+                    <h5>Americano</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>P120</h4>
+                    <button class="add-to-cart" onclick="addToCart('Americano P120')">+Add</button>
+                </div>
+                <a href="#"><i class="fal fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="C:\Users\Jessa\Downloads\milktea (2).png" alt="">
+                <div class="des">
+                    <span>Coffee</span>
+                    <h5>Cafe Latte</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>P99</h4>
+                    <button class="add-to-cart" onclick="addToCart('Americano P120')">+Add</button>
+                </div>
+                <a href="#"><i class="fal fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="C:\Users\Jessa\Downloads\milktea (2).png" alt="">
+                <div class="des">
+                    <span>Coffee</span>
+                    <h5>Vanilla</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>P99</h4>
+                    <button class="add-to-cart" onclick="addToCart('Americano P120')">+Add</button>
+                </div>
+                <a href="#"><i class="fal fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="C:\Users\Jessa\Downloads\milktea (2).png" alt="">
+                <div class="des">
+                    <span>Coffee</span>
+                    <h5>Spanish</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>P99</h4>
+                    <button class="add-to-cart" onclick="addToCart('Americano P120')">+Add</button>
+                </div>
+                <a href="#"><i class="fal fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="C:\Users\Jessa\Downloads\milktea (2).png" alt="">
+                <div class="des">
+                    <span>Coffee</span>
+                    <h5>Irish</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>P99</h4>
+                    <button class="add-to-cart" onclick="addToCart('Americano P120')">+Add</button>
+                </div>
+                <a href="#"><i class="fal fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="C:\Users\Jessa\Downloads\milktea (2).png" alt="">
+                <div class="des">
+                    <span>Coffee</span>
+                    <h5>English Toffee</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>P99</h4>
+                </div>
+                <a href="#"><i class="fal fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="C:\Users\Jessa\Downloads\milktea (2).png" alt="">
+                <div class="des">
+                    <span>Coffee</span>
+                    <h5>Caramel</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>P99</h4>
+                    <button class="add-to-cart" onclick="addToCart('Americano P120')">+Add</button>
+                </div>
+                <a href="#"><i class="fal fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="C:\Users\Jessa\Downloads\milktea (2).png" alt="">
+                <div class="des">
+                    <span>Coffee</span>
+                    <h5>Hazelnut</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                    <button class="add-to-cart" onclick="addToCart('Americano P120')">+Add</button>
+                </div>
+                <a href="#"><i class="fal fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="C:\Users\Jessa\Downloads\milktea (2).png" alt="">
+                <div class="des">
+                    <span>Coffee</span>
+                    <h5>Almond</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>P99</h4>
+                    <button class="add-to-cart" onclick="addToCart('Americano P120')">+Add</button>
+                </div>
+                <a href="#"><i class="fal fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="C:\Users\Jessa\Downloads\milktea (2).png" alt="">
+                <div class="des">
+                    <span>Coffee</span>
+                    <h5>Macadamia</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>P99</h4>
+                    <button class="add-to-cart" onclick="addToCart('Americano P120')">+Add</button>
+                </div>
+                <a href="#"><i class="fal fa-cart-shopping"></i></a>
+            </div>
+        </div>
+        
+    </section>
+
+
+
+   
+
+    
+    <section id="product1" class="section-p1">
+        <h2>New Arrival</h2>
+        <p>Milk Tea with Different Flavor </p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="C:\Users\Jessa\Downloads\milktea (2).png" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>cookies</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                    <button  class="add-to-cart" onclick="addToCart('Americano P120')">+Add</button>
+                </div>
+                <a href="#"><i class="fal fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="C:\Users\Jessa\Downloads\milktea (2).png" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>cookies</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                    <button class="add-to-cart" onclick="addToCart('Americano P120')">+Add</button>
+                </div>
+                <a href="#"><i class="fal fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="C:\Users\Jessa\Downloads\milktea (2).png" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>cookies</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                    <button class="add-to-cart" onclick="addToCart('Americano P120')">+Add</button>
+                </div>
+                <a href="#"><i class="fal fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="C:\Users\Jessa\Downloads\milktea (2).png" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>cookies</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                    <button class="add-to-cart" onclick="addToCart('Americano P120')">+Add</button>
+                </div>
+                <a href="#"><i class="fal fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="C:\Users\Jessa\Downloads\milktea (2).png" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>cookies</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                    <button class="add-to-cart" onclick="addToCart('Americano P120')">+Add</button>
+                </div>
+                <a href="#"><i class="fal fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="C:\Users\Jessa\Downloads\milktea (2).png" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>cookies</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                    <button class="add-to-cart" onclick="addToCart('Americano P120')">+Add</button>
+                </div>
+                <a href="#"><i class="fal fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="C:\Users\Jessa\Downloads\milktea (2).png" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>cookies</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                    <button class="add-to-cart" onclick="addToCart('Americano P120')">+Add</button>
+                </div>
+                <a href="#"><i class="fal fa-cart-shopping"></i></a>
+            </div>
+          
+            <div class="pro">
+                <img src="C:\Users\Jessa\Downloads\milktea (2).png" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>cookies</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                    <button class="add-to-cart" onclick="addToCart('Americano P120')">+Add</button>
+                </div>
+                <a href="#"><i class="fal fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="C:\Users\Jessa\Downloads\milktea (2).png" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>cookies</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                    <button class="add-to-cart" onclick="addToCart('Americano P120')">+Add</button>
+                </div>
+                <a href="#"><i class="fal fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="C:\Users\Jessa\Downloads\milktea (2).png" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>cookies</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                    <button class="add-to-cart" onclick="addToCart('Americano P120')">+Add</button>
+                </div>
+                <a href="#"><i class="fal fa-cart-shopping"></i></a>
+            </div>
+        </div>
+        
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img src="" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong>San Vicente Sta.Maria Bulacan</p>
+            <p><strong>Phone:</strong>+639568197255</p>
+            <p><strong>Hours:</strong>8:00am to 10:00pm, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    
+
+                </div>
+            </div>
+        
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms and Condition</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account </h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track my Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <a href="#">From App Store or Google Play</a>
+            <div class="row">
+                <i class="fa-brands fa-app-store"></i>
+                <i class="fa-brands fa-google-play"></i>
+            </div>
+            <p>Secured Payment Gateways</p>
+            <i class="fa-regular fa-credit-card"></i>
+            <div class="copyright">
+                <p>Something bla bla bla</p>
+            </div>
+        </div>
+    </footer>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal()">&times;</span>
+          <p id="modal-content"></p>
+          <button id="place-order" onclick="placeOrder()">Place Order</button>
+          <button id="cancel-order" onclick="cancelOrder()">Cancel Order</button>
+        </div>
+      </div>
+
+    <script src="script.js"></script>
+   
+</body>
+</html>
