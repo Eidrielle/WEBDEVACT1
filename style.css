@@ -133,7 +133,7 @@ body {
     align-items: center;
 }
 #hero {
-    background-image: url("C:\\Users\\Jessa\\Downloads\\background.jpg");
+    background-image: url("background.jpg");
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -167,7 +167,7 @@ body {
 }
 
 #hero1 {
-    background-image: url("C:\\Users\\Jessa\\Downloads\\dp.jpg");
+    background-image: url("dp.jpg");
     height: 1000px;
     width: 100%;
     background-size: cover;
@@ -430,7 +430,7 @@ footer .col .account-links a:hover {
     color: #088178;
 }
 #page-header{
-    background-image: url("C:\\Users\\Jessa\\Downloads\\bg1.jpg");
+    background-image: url("bg1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
